@@ -1,0 +1,95 @@
+.terminal {
+    height: 1000px;
+    overflow-y: hidden;
+    background-color: #3C3C3C;
+    color: #C4C4C4;
+    padding: 35px 45px;
+    font-size: 14px;
+    line-height: 1.42;
+    font-family: 'IBM Plex Mono', Consolas, Menlo, Monaco, 'Courier New', Courier,
+    monospace;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.terminalCountDown {
+    height: 15px;
+    overflow-y: hidden;
+    background-color: #3C3C3C;
+    color: #C4C4C4;
+    padding: 35px 45px;
+    font-size: 14px;
+    line-height: 1.42;
+    font-family: 'IBM Plex Mono', Consolas, Menlo, Monaco, 'Courier New', Courier,
+    monospace;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.terminal__line {
+    line-height: 2;
+    white-space: pre-wrap;
+}
+
+.terminal__prompt {
+    display: flex;
+    align-items: center;
+}
+
+.terminal__prompt__label {
+    flex: 0 0 auto;
+    color: #F9EF00;
+}
+
+.terminal__prompt__input {
+    flex: 1;
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.terminal__prompt__input input {
+    flex: 1;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    border: 0;
+    outline: none;
+    font-size: 14px;
+    line-height: 1.42;
+    font-family: 'IBM Plex Mono', Consolas, Menlo, Monaco, 'Courier New', Courier,
+    monospace;
+}
+.menu-bar {
+    display: flex;
+    align-items: center; /* Vertically center the buttons */
+    background-color: #6b6b6b;
+    height: 24px;
+    padding: 4px;
+  }
+  
+  .button {
+    width: 12px;
+    height: 12px;
+    margin-right: 5px; /* Add margin to separate the buttons */
+    border-radius: 50%;
+    cursor: pointer;
+    order: 1; /* Add this line to control the order */
+  }
+  
+  .red {
+    background-color: #ff5f56;
+    order: 0; /* Change the order to display this button first */
+  }
+  
+  .yellow {
+    background-color: #ffbd2e;
+    order: 2; /* Change the order to display this button last */
+  }
+  
+  .green {
+    background-color: #27c93f;
+    order: 3; /* Change the order to display this button last */
+  }
+  .menu-bar-container {
+    padding-left: 16px; /* Adjust the padding as needed */
+    background-color: #6b6b6b;
+  }
